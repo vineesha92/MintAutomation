@@ -37,7 +37,7 @@ public class AppTest
 		password.sendKeys("Vineesha@01");
 		
 		driver.findElement(By.id("ius-sign-in-submit-btn")).click();
-		driver.quit();
+		//driver.quit();
 		
 	}
 	
